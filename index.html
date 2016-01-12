@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Madlibs</title>
+
+    <!-- LINKS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" media="all">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-center">Let's do some Madlibs!</h1>
+
+      <!-- FORM SECTION -->
+
+        <div class="container">
+          <div id="blanks">
+            <form>
+              <div class="form-group">
+                <label for="person1">Name</label>
+                <input type="text" name="name" id="person1" placeholder="Enter name">
+              </div>
+              <div class="form-group">
+                <label for="person2">Name</label>
+                <input type="text" name="name" id="person2" placeholder="Enter another name">
+              </div>
+              <div class="form-group">
+                <label for="Animal">Animal</label>
+                <input type="text" name="name" id="animal" placeholder="Enter animal species">
+              </div>
+              <div class="form-group">
+                <label for="verb">Verb</label>
+                <input type="text" name="name" id="verb" placeholder="Enter verb">
+              </div>
+              <div class="form-group">
+                <label for="noun">Noun</label>
+                <input type="text" name="name" id="noun" placeholder="Enter noun">
+              </div><!--/.form-group -->
+            </div><!-- /form.container -->
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form><!-- /form -->
+      </div>
+
+      <div id="story">
+        <p>Once upon a time, <span class="person1"></span> <span class="verb"></span> through the forest he/she met a/an <span class="noun"></span> garden gnome named, <span class="person2"></span>. Both <span class="person1"></span> and <span class="person2"></span> lived happily ever-after.</p>
+      </div>
+    </div>
+  </div><!-- /.main-container -->
+
+    <!-- SCRIPTS -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+  </body>
+</html>
